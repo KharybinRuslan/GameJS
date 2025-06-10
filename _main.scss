@@ -102,7 +102,7 @@ body{
     padding: 94px 0 50px 0;
     position: relative; 
     overflow: hidden;
-    z-index: -2;
+    z-index: 1;
 
     &__block{
         &-title{
@@ -133,6 +133,7 @@ body{
                 display: flex;
                 flex-direction: column;
                 gap: 32px;
+                z-index: 5;
                 
                 &-link{
                     box-shadow: 0 13px 42px -8px rgba(0, 0, 0, 0.13);
@@ -143,6 +144,7 @@ body{
                     align-items: flex-start;
                     text-decoration: none;
                     transition: all 0.3s;
+                    z-index: 5;
                 }
 
                 &-link:hover{
@@ -185,10 +187,7 @@ body{
     &__img2{
         position: absolute;
         top: 770px;
-        z-index: -1;
+        z-index: 2;
         left: 25px;
     }
 }
-
-
-
