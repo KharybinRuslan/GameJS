@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.header{
+    padding-top: 196px;
+    padding-bottom: 156px;
+    background-color: #E1FF8F;
+    position: relative; 
+    overflow: hidden;
+
+    &__imgfonmob{
+        display: none;
+    }
+
+    &__imgzvezd{
+        position: absolute;
+        left: 63px;
+        top: 69px;
+    }
+
+    &__imgfon{
+        top: -340px;
+        right: 0;
+        transform: translateX(46%);
+        position: absolute;
+    }
+
+    &__imgzvezdmob{
+        display: none;
+    }
+
+    &__imgzvezdmob2{
+        display: none;
+    }
+    
+    &__block{
+        width: 768px;
+        
+        &__title{
+            font-weight: 700;
+            font-size: 64px;
+            color: #202027;
+        }
+
+        &__text{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 133%;
+            color: #202027;
+            margin-top: 24px;
+            width: 720px;
+            
+            &-link{
+                font-weight: 600;
+                text-decoration: none;
+                color: #202027;
+                transition: all 0.3s;
+                cursor: pointer;
+            }
+
+            &-link:hover{
+                opacity: 0.7;
+            }
+        }
+
+        &__button{
+            border: 1px solid #202027;
+            border-radius: 60px;
+            padding: 16px 65px;
+            background: #202027;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 142%;
+            text-align: center;
+            color: #ffffff;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 48px;
+        }
+
+        &__button:hover{
+            border: 1px solid #202027;
+            background: #ffffff00;
+            color: #202027;
+        }
+    }
+}
+
+.game{
+    background: #202027;
+    padding: 94px 0 50px 0;
+    position: relative; 
+    overflow: hidden;
+    z-index: -2;
+
+    &__block{
+        &-title{
+            font-weight: 700;
+            font-size: 64px;
+            color: #ffffff;
+        }
+
+        &-titlemob{
+            display: none;
+        }
+
+        &-text{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 133%;
+            color: #ffffff;
+            padding-top: 24px;
+        }
+
+        &__content{
+            padding-top: 72px;
+            display: flex;
+            flex-direction: row;
+            gap: 32px;
+
+            &__vertical{
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                
+                &-link{
+                    box-shadow: 0 13px 42px -8px rgba(0, 0, 0, 0.13);
+                    background: #ffffff;
+                    border-radius: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    text-decoration: none;
+                    transition: all 0.3s;
+                }
+
+                &-link:hover{
+                    transform: scale(1.05)
+                }
+
+                &-img{
+                    width: 100%;
+                    border-radius: 30px;
+                }
+
+                &-number{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 110%;
+                    color: #202027;
+                    padding: 9px 16px;
+                    background: #f7f7f7;
+                    margin: 32px 32px 0 32px;
+                    border-radius: 53px;
+                }
+
+                &-text{
+                    font-weight: 700;
+                    font-size: 32px;
+                    color: #202027;
+                    margin: 16px 32px 36px 32px;
+                }
+            }
+        }
+    }
+
+    &__img{
+        position: absolute;
+        top: 77px;
+        z-index: -1;
+        right: -100px;
+    }
+
+    &__img2{
+        position: absolute;
+        top: 770px;
+        z-index: -1;
+        left: 25px;
+    }
+}
+
+
+

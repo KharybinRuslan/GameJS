@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
     <title>Hello world</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="header">
+        <img class="header__imgzvezd" src="./img/zvezd-svg.svg" alt="Большая звезда на фоне">
+        <img class="header__imgfon" src="./img/buground-svg.svg" alt="Большая звезда на фоне">
+        <img class="header__imgfonmob" src="./img/buground-svg-mob.svg" alt="Зеленая звезда">
+        <img class="header__imgzvezdmob" src="./img/zvezdmob-svg.svg" alt="2 Звезды сверху">
+        <img class="header__imgzvezdmob2" src="./img/zvezdmob2-svg2.svg" alt="2 Звезды снизу">
+        <div class="header__block center">
+            <h1 class="header__block__title">Добро пожаловать <br>на мой сайт мини-игр</h1>
+            <p class="header__block__text">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай
+                <a class="header__block__text-link" href="#">«Поехали!»</a> и
+                <a class="header__block__text-link" href="#">приступай.</a>
+            </p>
+            <button class="header__block__button">Поехали!</button>
+        </div>
+    </div>
+
+    <div class="game">
+        <div class="game__block center">
+            <h2 class="game__block-title">Об играх</h2>
+            <h2 class="game__block-title game__block-titlemob">Мини-игры</h2>
+            <p class="game__block-text">В моей коллекции представлено 6 игр на разные темы.<br> Игры несложные — в них может поиграть каждый.<br> Все игры доступны для пользования.</p>
+            <div class="game__block__content"> 
+                <div class="game__block__content__vertical">
+                    <a class="game__block__content__vertical-link" href="http://">
+                        <img class="game__block__content__vertical-img" src="./img/game-block-img1.png" alt="Игра 1" srcset="">
+                        <p class="game__block__content__vertical-number">Игра № 1</p>
+                        <p class="game__block__content__vertical-text">Угадай число</p>
+                    </a>
+
+                    <a class="game__block__content__vertical-link" href="http://">
+                        <img class="game__block__content__vertical-img" src="./img/game-block-img4.png" alt="Игра 4" srcset="">
+                        <p class="game__block__content__vertical-number">Игра № 4</p>
+                        <p class="game__block__content__vertical-text">Камень, ножницы, <br>бумага</p>
+                    </a>
+                </div>
+
+                <div class="game__block__content__vertical">
+                    <a class="game__block__content__vertical-link" href="http://">
+                        <img class="game__block__content__vertical-img" src="./img/game-block-img2.png" alt="Игра 2" srcset="">
+                        <p class="game__block__content__vertical-number">Игра № 2</p>
+                        <p class="game__block__content__vertical-text">Простая арифметика</p>
+                    </a>
+
+                    <a class="game__block__content__vertical-link" href="http://">
+                        <img class="game__block__content__vertical-img" src="./img/game-block-img5.png" alt="Игра 5" srcset="">
+                        <p class="game__block__content__vertical-number">Игра № 5</p>
+                        <p class="game__block__content__vertical-text">Простая викторина</p>
+                    </a>
+
+                </div>
+
+                <div class="game__block__content__vertical">
+                    <a class="game__block__content__vertical-link" href="http://">
+                        <img class="game__block__content__vertical-img" src="./img/game-block-img3.png" alt="Игра 3" srcset="">
+                        <p class="game__block__content__vertical-number">Игра № 3</p>
+                        <p class="game__block__content__vertical-text">Переверни текст</p>
+                    </a>
+                    
+                    <a class="game__block__content__vertical-link" href="http://">
+                        <img class="game__block__content__vertical-img" src="./img/game-block-img6.png" alt="Игра 6" srcset="">
+                        <p class="game__block__content__vertical-number">Игра № 6</p>
+                        <p class="game__block__content__vertical-text">Генератор случайных цветов</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img class="game__img" src="./img/zvezda-svg.svg" alt="Звезда на фоне">
+        <img class="game__img2" src="./img/zvezdy2-svg.svg" alt="2 Звезды на фоне">
+    </div>
+
 </body>
+
 </html>
